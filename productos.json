@@ -1,0 +1,125 @@
+{
+    "productos" : [
+    {
+        "id":1,
+        "descripcion":"Remera",
+        "marca": "Adidas",
+        "precio":400, 
+        "cantidad":1,
+        "img":"./img/products/f1.jpg"
+    },
+    {
+        "id":2,
+        "descripcion":"Remera",
+        "marca": "Adidas",
+        "precio":400,
+        "cantidad":1,
+        "img":"./img/products/f2.jpg"
+    },
+    {
+        "id":3,
+        "descripcion":"Remera", 
+        "marca": "Adidas",
+        "precio":1200, 
+        "cantidad":1,
+        "img":"./img/products/f3.jpg"
+    },
+    {
+        "id":4,
+        "descripcion":"Remera", 
+        "marca": "Adidas",
+        "precio":1000, 
+        "cantidad":1,
+        "img":"./img/products/f4.jpg"
+    },
+    {
+        "id":5,
+        "descripcion":"Remera", 
+        "marca": "Adidas", 
+        "precio":600,
+        "cantidad":1, 
+        "img":"./img/products/f5.jpg"
+    },
+    {
+        "id":6,
+        "descripcion":"Remera",     
+        "marca": "Adidas",
+        "precio":600,
+        "cantidad":1, 
+        "img":"./img/products/f6.jpg"
+    },
+    {
+        "id":7,
+        "descripcion":"Remera", 
+        "marca": "Adidas", 
+        "precio":800, 
+        "cantidad":1,
+        "img":"./img/products/f7.jpg"
+    },
+    {
+        "id":8,
+        "descripcion":"Remera", 
+        "marca": "Adidas", 
+        "precio":500,
+        "cantidad":1, 
+        "img":"./img/products/f8.jpg"
+    },
+    {
+        "id":9,
+        "descripcion":"Remera", 
+        "marca": "Adidas", 
+        "precio":500, 
+        "cantidad":1,
+        "img":"./img/products/n1.jpg"
+    },
+    {
+        "id":10,
+        "descripcion":"Remera", 
+        "marca": "Adidas",
+        "precio":500, 
+        "cantidad":1,
+        "img":"./img/products/n2.jpg"
+    },
+    {
+        "id":11,
+        "descripcion":"Remera",
+        "marca": "Adidas",
+        "precio":1000,
+        "cantidad":1, 
+        "img":"./img/products/n3.jpg"
+    },
+    {
+        "id":14,
+        "descripcion":"Remera", 
+        "marca": "Adidas",
+        "precio":500, 
+        "cantidad":1,
+        "img":"./img/products/n4.jpg"
+    },
+    {
+        "id":15,
+        "descripcion":"Remera", 
+        "marca": "Adidas", 
+        "precio":300, 
+        "cantidad":1,
+        "img":"./img/products/n5.jpg"
+    },
+    {
+        "id":16,
+        "descripcion":"Remera", 
+        "marca": "Adidas", 
+        "precio":300, 
+        "cantidad":1,
+        "img":"./img/products/n6.jpg"
+    },
+    {
+        "id":17,
+        "descripcion":"Remera", 
+        "marca": "Adidas",
+        "precio":400,
+        "cantidad":1, 
+        "img":"./img/products/n7.jpg"
+    }
+]
+}
+

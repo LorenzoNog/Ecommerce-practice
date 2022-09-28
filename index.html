@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce exercise</title>
+  <link rel="stylesheet" href="./main.css">
+  <script src="https://kit.fontawesome.com/44169911f1.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+  <section id="header">
+    <a href=""><img src="./img/logo.png" alt=""></a>
+    <div id="nav">
+      <ul id="navbar">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="active"><a href="">Shop</a></li>
+        <li class="active"><a href="">About</a></li>
+        <li class="active"><a href="">Contact</a></li>
+        <button id="boton-carrito">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+      </ul>
+    </div>
+  </section>
+
+  <section id="hero">
+    <h4>
+      Trade-in-offer
+    </h4>
+    <h2>
+      Super value dues
+    </h2>
+    <h1>
+      On all products
+    </h1>
+    <p>
+      Save more with coupons & up to 70% off!
+    </p>
+    <button>
+      Shop now
+    </button>
+  </section>
+
+  <section id="feature" class="feature">
+    <div class="feature-box">
+      <img src="./img/features/f1.png" alt="">
+      <h6>Free shiping</h6>
+    </div>
+    <div class="feature-box">
+      <img src="./img/features/f2.png" alt="">
+      <h6>Online order</h6>
+    </div>
+    <div class="feature-box">
+      <img src="./img/features/f3.png" alt="">
+      <h6>Save money</h6>
+    </div>
+    <div class="feature-box">
+      <img src="./img/features/f4.png" alt="">
+      <h6>Promotions</h6>
+    </div>
+    <div class="feature-box">
+      <img src="./img/features/f5.png" alt="">
+      <h6>Happy sell</h6>
+    </div>
+    <div class="feature-box">
+      <img src="./img/features/f6.png" alt="">
+      <h6>Support</h6>
+    </div>
+  </section>
+
+  <h2 class="titulo">
+    Featured products
+  </h2>
+  <p class="subtitulo"> 
+    Summer collection New Morder Design
+  </p>
+
+  <section id="product1" class="productosContainer">
+      <div class="pro-container" id="product">
+      </div>
+  </section>
+
+  <section id="banner">
+    <h4>Repair Services</h4>
+    <h2>
+      Up to <span class="rojo">70% off</span> - All to Shirts & Accessories
+    </h2>
+    <button>
+      Explore more
+    </button>
+  </section>
+
+  <section class="sm-banner" id="sm-banner">
+    <div class="banner-box">
+      <h4>
+        Crazy deals
+      </h4>
+      <h2>
+        buy 1 get 1 free
+      </h2>
+      <p>
+        The best classic dress is on sale at cara
+      <p>
+      <button>
+        Learn more
+      </button>
+    </div>
+    <div class="banner-box banner-box-second">
+      <h4>
+        Spring/summer
+      </h4>
+      <h2>
+        Upcoming season
+      </h2>
+      <p>
+        The best classic dress is on sale at cara
+      <p>
+      <button>
+        Collection
+      </button>
+    </div>
+  </section>
+
+  <section class="sm-banner2" id="sm-banner2">
+    <div class="banner-box2">
+      <h4>
+        Seasonal sale
+      </h4>
+      <h2>
+        winter collection
+      </h2>
+    </div>
+    <div class="banner-box2 banner-box2-img">
+      <h4>
+        Footwear 
+      </h4>
+      <h2>
+        spring / summer 2022
+      </h2>
+    </div>
+    <div class="banner-box2 banner-box3-img">
+      <h4>
+        T-shirts
+      </h4>
+      <h2>
+        Upcoming season
+      </h2>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="newtext">
+      <h4>
+        Sign Up for Newsletter
+      </h4>
+      <p>
+        Get E-mail updates about our latest shop and <span>special offers.</span>
+      </p>
+    </div>
+    <div class="form">
+      <input type="text" id="" placeholder="Your email address">
+      <button>Sign Up</button>
+    </div>
+  </section>
+
+  <div class="modal-contenedor">
+    <div class="modal-carrito">
+        <h3>
+            Carrito
+        </h3>
+        <button id="carritoCerrar">
+            <i class="fas fa-times-circle"></i>
+        </button>
+        <div id="carrito-contenedor">
+        </div>
+        <p class="precioProducto">
+            Precio total: 
+                $<span id="precioTotal">
+                    
+                </span>
+        </p>
+        <button id="Pagar" class="boton-pagar">
+            <a href="" style="text-decoration:none; color: tomato;">
+                Pagar
+            </a>
+        </button>
+    </div>
+</div>
+  
+  <script src="./main.js"></script>
+  <script src="./modal.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
